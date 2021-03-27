@@ -6,7 +6,7 @@ extern crate const_id_macro;
 /// ever time this function is called
 ///
 /// ```
-/// const ID: usize = const_id::const_id!();
+/// const ID: usize = const_id::const_id!() as usize;
 /// ```
 #[proc_macro_hack]
 pub use const_id_macro::const_id;
