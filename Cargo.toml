@@ -3,8 +3,10 @@ name = "const_id"
 version = "0.1.0"
 authors = ["teln0 <telnobynoyator@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/Teln0/const_id"
+repository = "https://github.com/Teln0/const_id"
+description = "Generates unique IDs at compile time"
 
 [dependencies]
 proc-macro-hack = "0.5"
