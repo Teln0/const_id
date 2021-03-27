@@ -1,0 +1,11 @@
+[package]
+name = "const_id"
+version = "0.1.0"
+authors = ["teln0 <telnobynoyator@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro-hack = "0.5"
+const_id_macro = "0.1.0"
